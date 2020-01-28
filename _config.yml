@@ -42,13 +42,13 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
-  tab_replace: ''
+  tab_replace: false
   wrap: true
   hljs: false
 
@@ -93,11 +93,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Claudia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: git@github.com:JHOUJHOU/blogJHOU.git //儲存庫路徑
+  repo: git@github.com:JHOUJHOU/blogJHOU.git
   branch: gh-pages
