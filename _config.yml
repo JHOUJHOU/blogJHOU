@@ -97,5 +97,7 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: ''
+deploy: 
+  type: git
+  repo: git@github.com:JHOUJHOU/blogJHOU.git //儲存庫路徑
+  branch: gh-pages
