@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 記錄每個學習過程
+title: 學習
 subtitle: ''
-description: ''
+description: 'Continuous learning'
 keywords:
 author: JHOU JHOU
 language: zh-tw
@@ -13,9 +13,10 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://jhoujhou.github.io/blogJHOU/
 root: /
 permalink: :year/:month/:day/:title/
+#permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
